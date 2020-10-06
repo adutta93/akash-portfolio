@@ -20,6 +20,9 @@ export default {
 
   ShowAboutImage: false, //true or false (Change Here)
   // Change Projects Here
+
+  resumeDownload:
+    "https://drive.google.com/file/d/1KRC6OchKvweMX4RntoWW7N4Sh5VDTYvf/view?usp=sharing",
   projects: [
     {
       id: 1,

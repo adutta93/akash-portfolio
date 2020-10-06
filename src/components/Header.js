@@ -29,8 +29,21 @@ class Header extends Component {
             {data.headerTagline[3]}
             <br></br>
             <button>
-              <a href={`mailto:${data.contactEmail}`} rel="noopener noreferrer">
+              <a
+                href="mailto:dutta.akash1993official@gmail.com"
+                target="blank"
+                rel="noopener noreferrer"
+              >
                 Contact
+              </a>
+            </button>
+            <button>
+              <a
+                href={data.resumeDownload}
+                target="blank"
+                rel="noopener noreferrer"
+              >
+                Resume
               </a>
             </button>
           </p>
