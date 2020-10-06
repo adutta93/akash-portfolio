@@ -12,11 +12,10 @@ export default {
   //Contact Email
   contactEmail: "dutta.akash1993official@gmail.com",
 
-  abouttext: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever 
-      since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five
-       centuries, but also the leap into electronic typesetting, remaining essentially unchanged.It was popularised in the 1960s with the release 
-       of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including 
-       versions of Lorem Ipsum.`,
+  abouttext: `Hey There! I'm Akash Dutta. A Full stack developer with a demonstrated working knowledge with technologies like HTML, CSS, 
+  React JS, Redux, Node JS, Express JS, MongoDB, Git, Jira. I'm based out of Kolkata, India. Currently working as a Software Developer Intern 
+  for Weavions Technologies, Kolkata. I do have interest developing web applications and mobile applications. Besides that I love to play drums,
+  listening to music, making music, and travelling and food :).`,
   aboutImage: require("./img/profile.jpg"),
 
   ShowAboutImage: false, //true or false (Change Here)
