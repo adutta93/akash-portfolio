@@ -28,13 +28,37 @@ class Contact extends Component {
               {data.contactEmail}
             </a>
             <ul>
-              <AiFillGithub size={35} style={{ marginRight: "1.5rem" }} />
-              <AiFillLinkedin size={35} style={{ marginRight: "1.5rem" }} />
-              <AiFillInstagram size={35} style={{ marginRight: "1.5rem" }} />
-              <AiFillTwitterCircle
-                size={35}
-                style={{ marginRight: "1.5rem" }}
-              />
+              <a
+                target="blank"
+                href="https://github.com/akash-dutta-au7"
+                rel="noopener noreferrer"
+              >
+                <AiFillGithub size={35} style={{ marginRight: "1.5rem" }} />
+              </a>
+              <a
+                target="blank"
+                href="https://www.linkedin.com/in/akash-dutta-0a4993173/"
+                rel="noopener noreferrer"
+              >
+                <AiFillLinkedin size={35} style={{ marginRight: "1.5rem" }} />
+              </a>
+              <a
+                target="blank"
+                href="https://www.instagram.com/aaakash.js/"
+                rel="noopener noreferrer"
+              >
+                <AiFillInstagram size={35} style={{ marginRight: "1.5rem" }} />
+              </a>
+              <a
+                target="blank"
+                href="https://twitter.com/mernstackdev93"
+                rel="noopener noreferrer"
+              >
+                <AiFillTwitterCircle
+                  size={35}
+                  style={{ marginRight: "1.5rem" }}
+                />
+              </a>
             </ul>
           </div>
         </Fade>

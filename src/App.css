@@ -149,6 +149,7 @@ li .link:hover {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 5em;
+  margin-left: -3rem;
 }
 
 .project img {
@@ -210,7 +211,7 @@ li .link:hover {
 }
 
 /* SMARTPHONES PORTRAIT */
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 768px) {
   /* body {
     font-size: 6px;
   } */
