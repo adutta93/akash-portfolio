@@ -3,7 +3,7 @@ export default {
   headerTagline: [
     //Line 1 For Header
     "Hi 👋 You found me!",
-    " I am Akash.",
+    " I am Akash Dutta.",
     //Line 2 For Header
     "Software Developer",
     //Line 3 For Header

@@ -286,6 +286,7 @@ li .link:hover {
   }
   .project h1 {
     font-size: 1.2rem;
+    margin-bottom: 1.5em;
   }
   .project {
     margin-left: 3rem;
