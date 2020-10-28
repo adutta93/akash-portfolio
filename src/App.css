@@ -159,7 +159,7 @@ li .link:hover {
 }
 
 .all-btn {
-  padding: 12px 25px;
+  padding: 8px 16px;
   color: white;
   background: black;
   border: none;
@@ -247,7 +247,7 @@ li .link:hover {
     position: relative;
     display: flex;
     top: -7em;
-    margin-left: -11rem;
+    margin-left: -12rem;
   }
   .about img {
     display: none;
@@ -269,7 +269,7 @@ li .link:hover {
   }
 
   .work {
-    left: 5rem;
+    left: 3rem;
     top: -5em;
     align-items: flex-start;
   }
@@ -280,25 +280,25 @@ li .link:hover {
     margin-left: -5rem;
   }
   .project img {
-    width: 20em;
-    height: 15em;
+    width: 18em;
+    height: 10em;
   }
   .project h1 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .project {
-    margin-left: 4rem;
+    margin-left: 3rem;
   }
 
   .contact {
     top: 1em;
-    left: 3rem;
+    left: 2rem;
   }
   .contact h1 {
-    font-size: 2.2em;
+    font-size: 1.8em;
   }
   .contact .email {
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
 
   .contact li {
@@ -309,9 +309,9 @@ li .link:hover {
     font-size: 2.5em;
   }
   .footer {
-    top: 4em;
+    top: em;
     padding: 1em;
-    font-size: 1em;
+    font-size: 0.8em;
   }
 
   .header-title button {
