@@ -227,7 +227,7 @@ li .link:hover {
     font-weight: 400;
     padding: 0.3em;
     text-align: left;
-    margin-left: 3rem;
+    margin-left: 2.5rem;
     line-height: 2rem;
   }
 
@@ -247,7 +247,7 @@ li .link:hover {
     position: relative;
     display: flex;
     top: -7em;
-    margin-left: -12rem;
+    margin-left: -12.5rem;
   }
   .about img {
     display: none;
@@ -266,6 +266,7 @@ li .link:hover {
 
   .work .heading {
     font-size: 2.5rem;
+    margin-left: -0.5rem;
   }
 
   .work {
@@ -296,9 +297,11 @@ li .link:hover {
   }
   .contact h1 {
     font-size: 1.8em;
+    margin-left: -0.5rem;
   }
   .contact .email {
     font-size: 1.2em;
+    margin-left: -0.5rem;
   }
 
   .contact li {
