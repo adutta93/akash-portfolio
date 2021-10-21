@@ -17,7 +17,7 @@ class Header extends Component {
           </h1>
         </header>
         <Fade bottom cascade>
-          <p className="position">{"Full-stack developer"}</p>
+          <p className="position">{"Full-stack developer | UI/UX designer"}</p>
         </Fade>
         <Fade bottom>
           <p className="header-title">

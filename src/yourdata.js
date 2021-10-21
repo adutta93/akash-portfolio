@@ -12,17 +12,16 @@ export default {
   //Contact Email
   contactEmail: "dutta.akash1993official@gmail.com",
 
-  abouttext: `Hey There! I'm Akash Dutta. A Full stack developer with a demonstrated working knowledge with technologies like HTML, CSS, 
-  React JS, Redux, Node JS, Express JS, MongoDB, Git, Jira. I'm based out of Kolkata, India. Currently working as a Software Developer Intern 
-  for Weavions Technologies, Kolkata. I do have interest developing web applications and mobile applications. Besides that I love to play drums,
-  listening to music, making music, and travelling and food :).`,
+  abouttext: `Hey There! This is Akash here. A Full stack developer with Overall 3+ years of experience in technology. Having a demonstrated history 
+  developing products for Healthcare, Finance, and EdTech domain. Having working knowledge in technologies like HTML, CSS, 
+  React JS, Redux, Node JS, Express JS, MongoDB, Python, AWS EC2, AWS S3, AWS Amplify, Git, Jira. `,
   aboutImage: require("./img/profile.jpg"),
 
   ShowAboutImage: false, //true or false (Change Here)
   // Change Projects Here
 
   resumeDownload:
-    "https://drive.google.com/file/d/1KRC6OchKvweMX4RntoWW7N4Sh5VDTYvf/view?usp=sharing",
+    "https://drive.google.com/file/d/1OpAXVkmfRNP9XP2ro8Yky4NF-Ismuw_i/view?usp=sharing",
   projects: [
     {
       id: 1,
@@ -34,7 +33,16 @@ export default {
       github: "https://github.com/akash-dutta-au7/devium",
     },
     {
-      id: 2,
+      id: 3,
+      title: "Trello Clone | React JS",
+      service: "Web Development",
+      imageSrc: require("./img/trello-final.png"),
+      live: "https://trello-clone-new-akash.netlify.app/#",
+      livedemo: "https://trello-clone-new-akash.netlify.app/#",
+      github: "https://github.com/akash-dutta-au7/trello",
+    },
+    {
+      id: 4,
       title: "SaaSBee | React",
       service: "UI Development",
       imageSrc: require("./img/saas.png"),
@@ -43,7 +51,7 @@ export default {
       github: "https://github.com/akash-dutta-au7/saasbee",
     },
     {
-      id: 3,
+      id: 2,
       title: "Netflix Clone | React",
       service: "Frontend Development",
       imageSrc: require("./img/net2.png"),
@@ -53,7 +61,7 @@ export default {
       github: "https://github.com/attainu/Stream-em-all",
     },
     {
-      id: 4,
+      id: 5,
       title: "The Globile Store | Bootstrap UI",
       service: "Ui Development",
       imageSrc: require("./img/globilestore.png"),

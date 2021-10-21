@@ -65,9 +65,9 @@ class Contact extends Component {
 
         <span className="footer">
           Made With ❤ by{" "}
-          <a href="https://github.com/akash-dutta-au7">
-            Chetan Verma & Akash Dutta
-          </a>
+          <a href="https://github.com/akash-dutta-au7">Chetan Verma</a>{" "}
+          <span>&</span>{" "}
+          <a href="https://github.com/akash-dutta-au7">Akash Dutta</a>
         </span>
       </div>
     );
