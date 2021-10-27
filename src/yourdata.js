@@ -21,7 +21,7 @@ export default {
   // Change Projects Here
 
   resumeDownload:
-    "https://drive.google.com/file/d/1OpAXVkmfRNP9XP2ro8Yky4NF-Ismuw_i/view?usp=sharing",
+    "https://drive.google.com/file/d/1eGa0uwQPLDoFnN8eIfgkmmpXEdJfM5RS/view?usp=sharing",
   projects: [
     {
       id: 1,
