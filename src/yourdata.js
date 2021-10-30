@@ -33,6 +33,15 @@ export default {
       github: "https://github.com/akash-dutta-au7/devium",
     },
     {
+      id: 6,
+      title: "Zomato Clone | React JS",
+      service: "Web Development",
+      imageSrc: require("./img/zomato-clone.png"),
+      live: "https://zomato-clone-by-akash.netlify.app/",
+      livedemo: "https://zomato-clone-by-akash.netlify.app/",
+      github: "https://github.com/akash-dutta-au7/",
+    },
+    {
       id: 3,
       title: "Trello Clone | React JS",
       service: "Web Development",
