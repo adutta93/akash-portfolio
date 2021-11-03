@@ -51,6 +51,15 @@ export default {
       github: "https://github.com/akash-dutta-au7/trello",
     },
     {
+      id: 3,
+      title: "InShort - Url shortner | Next JS, Vercel Edge, Redis",
+      service: "Web Development",
+      imageSrc: require("./img/url-short.png"),
+      live: "https://url-hortner.netlify.app/",
+      livedemo: "https://url-hortner.netlify.app/",
+      github: "https://github.com/akash-dutta-au7/next-js-url-shortner",
+    },
+    {
       id: 4,
       title: "SaaSBee | React",
       service: "UI Development",
