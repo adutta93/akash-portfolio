@@ -52,7 +52,7 @@ export default {
     },
     {
       id: 3,
-      title: "InShort - Url shortner | Next JS, Vercel Edge, Redis",
+      title: "InShort | Next JS, Vercel Edge, Redis",
       service: "Web Development",
       imageSrc: require("./img/url-short.png"),
       live: "https://url-hortner.netlify.app/",
