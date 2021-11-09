@@ -55,8 +55,8 @@ export default {
       title: "InShort | Next JS, Vercel Edge, Redis",
       service: "Web Development",
       imageSrc: require("./img/url-short.png"),
-      live: "https://url-hortner.netlify.app/",
-      livedemo: "https://url-hortner.netlify.app/",
+      live: "https://next-js-url-shortner.vercel.app/",
+      livedemo: "https://next-js-url-shortner.vercel.app/",
       github: "https://github.com/akash-dutta-au7/next-js-url-shortner",
     },
     {
