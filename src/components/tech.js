@@ -16,7 +16,7 @@ class Tech extends Component {
 
 					<div className='tech_img_wrapper'>
 						{data.tech.map((item, index) => (
-							<img className='tech_img' src={item.imageSrc} key={index} />
+							<img className='tech_img' src={item.imageSrc} key={index} alt={item.imageSrc} />
 						))}
 					</div>
 				</div>

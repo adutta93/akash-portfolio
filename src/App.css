@@ -47,6 +47,7 @@ body {
 }
 
 .position {
+	font-size: 1.1em;
 	margin-top: -2.7em;
 	margin-right: 42rem;
 	color: #9352ae;
@@ -56,7 +57,8 @@ nav {
 	left: 55em;
 	top: 6em;
 	background-color: white;
-	opacity: 0.5;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	opacity: 0.8;
 	z-index: 100;
 }
 nav li {

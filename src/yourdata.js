@@ -33,16 +33,16 @@ export default {
 	abouttext2: `Currently, I am a senior engineer at Twilio where I work in their developer supportability team. Additionally, I work with early-stage start-ups to build their first MVP as a software engineer consultant
 	`,
 
-	resumeDownload: 'https://drive.google.com/file/d/1eGa0uwQPLDoFnN8eIfgkmmpXEdJfM5RS/view?usp=sharing',
+	resumeDownload: 'https://drive.google.com/file/d/1cO1MxLewnkwav9NnTYLBiTWDoJqXgCcP/view?usp=sharing',
 	tech: [
 		{ imageSrc: js },
-		{ imageSrc: go },
 		{ imageSrc: py },
 		{ imageSrc: node },
 		{ imageSrc: express },
 		{ imageSrc: mongo },
 		{ imageSrc: react },
 		{ imageSrc: mysql },
+		{ imageSrc: go },
 		{ imageSrc: graphql },
 		{ imageSrc: docker },
 		{ imageSrc: elastic },
@@ -117,9 +117,22 @@ export default {
 		// 	status: '',
 		// },
 	],
+
 	projects: [
 		{
+			id: 0,
+			title: 'Flipkart Clone | Full Stack MERN',
+			service: 'Web Development',
+			github: 'https://github.com/akash-dutta-au7/flipkart-clone',
+		},
+		{
 			id: 1,
+			title: 'Search | Full Stack MERN - Elasticsearch',
+			service: 'Web Development',
+			github: 'https://github.com/akash-dutta-au7/mern-elasticsearch-search-app',
+		},
+		{
+			id: 2,
 			title: 'Devium | Full Stack MERN',
 			service: 'Web Development',
 			live: 'https://devium-by-akash.herokuapp.com/',
@@ -127,7 +140,7 @@ export default {
 			github: 'https://github.com/akash-dutta-au7/devium',
 		},
 		{
-			id: 6,
+			id: 3,
 			title: 'Zomato Clone | React JS',
 			service: 'Web Development',
 			live: 'https://zomato-clone-by-akash.netlify.app/',
@@ -135,7 +148,7 @@ export default {
 			github: 'https://github.com/akash-dutta-au7/',
 		},
 		{
-			id: 3,
+			id: 4,
 			title: 'Trello Clone | React JS',
 			service: 'Web Development',
 			live: 'https://trello-clone-new-akash.netlify.app/#',
@@ -143,7 +156,7 @@ export default {
 			github: 'https://github.com/akash-dutta-au7/trello',
 		},
 		{
-			id: 3,
+			id: 5,
 			title: 'InShort | Next JS, Vercel Edge, Redis',
 			service: 'Web Development',
 			live: 'https://next-js-url-shortner.vercel.app/',
@@ -151,15 +164,7 @@ export default {
 			github: 'https://github.com/akash-dutta-au7/next-js-url-shortner',
 		},
 		{
-			id: 4,
-			title: 'SaaSBee | React',
-			service: 'UI Development',
-			live: 'https://saasbee-marketplace.netlify.app/',
-			livedemo: 'https://www.youtube.com/watch?v=XtMbn4dmfVM',
-			github: 'https://github.com/akash-dutta-au7/saasbee',
-		},
-		{
-			id: 2,
+			id: 6,
 			title: 'Netflix Clone | React',
 			service: 'Frontend Development',
 			live: 'http://stream-em-all.herokuapp.com/',
@@ -167,7 +172,16 @@ export default {
 			github: 'https://github.com/attainu/Stream-em-all',
 		},
 		{
-			id: 5,
+			id: 7,
+			title: 'SaaSBee | React',
+			service: 'UI Development',
+			live: 'https://saasbee-marketplace.netlify.app/',
+			livedemo: 'https://www.youtube.com/watch?v=XtMbn4dmfVM',
+			github: 'https://github.com/akash-dutta-au7/saasbee',
+		},
+
+		{
+			id: 8,
 			title: 'The Globile Store | Bootstrap UI',
 			service: 'Ui Development',
 			live: 'https://akash-dutta-au7.github.io/TheGlobileStore/',

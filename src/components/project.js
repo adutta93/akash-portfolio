@@ -10,15 +10,23 @@ class Project extends Component {
 
 					<h1>{this.props.title}</h1>
 
-					<a className='proj-btn' target='_blank' rel='noopener noreferrer' href={this.props.live}>
-						Link
-					</a>
-					<a className='proj-btn' target='_blank' rel='noopener noreferrer' href={this.props.livedemo}>
-						Video Demo
-					</a>
-					<a className='proj-btn' target='_blank' rel='noopener noreferrer' href={this.props.github}>
-						GitHub
-					</a>
+					{this.props?.live ? (
+						<a className='proj-btn' target='_blank' rel='noopener noreferrer' href={this.props.live}>
+							Link
+						</a>
+					) : null}
+
+					{this.props?.livedemo ? (
+						<a className='proj-btn' target='_blank' rel='noopener noreferrer' href={this.props.livedemo}>
+							Video Demo
+						</a>
+					) : null}
+
+					{this.props?.github ? (
+						<a className='proj-btn' target='_blank' rel='noopener noreferrer' href={this.props.github}>
+							GitHub
+						</a>
+					) : null}
 				</div>
 			</Fade>
 		);
