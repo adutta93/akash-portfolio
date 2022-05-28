@@ -12,24 +12,26 @@ import dynamo from './img/tech/dynamo.jpg';
 import nginx from './img/tech/nginx.png';
 import aws from './img/tech/aws.jpg';
 import digio from './img/tech/do.png';
+import elastic from './img/tech/elastic.png';
 
 export default {
 	name: 'akash dutta.',
 	headerTagline: [
 		//Line 1 For Header
 		'Hi 👋 You found me!',
-		' I am Akash Dutta.',
+		' I am Akash',
 		//Line 2 For Header
-		'Software Developer',
+		'Software Engineer',
 		//Line 3 For Header
-		'from India',
+		' from India',
 	],
 	//Contact Email
 	contactEmail: 'dutta.akash1993official@gmail.com',
 
-	abouttext: `Hey There! This is Akash here. A Full stack developer with Overall 3+ years of experience in technology. Having a demonstrated history 
-  developing products for Healthcare, Finance, and EdTech domain. Having working knowledge in technologies like HTML, CSS, 
-  React JS, Redux, Node JS, Express JS, MongoDB, Python, AWS EC2, AWS S3, AWS Amplify, Git, Jira. `,
+	abouttext1: `Hey there! I'm Akash. A software engineer with over 4 years of experience. I am passionate about technology, the internet, the web, 
+	and the way software is developed. I have developed products for the finance, e-commerce, and education industries.`,
+	abouttext2: `Currently, I am a senior engineer at Twilio where I work in their developer supportability team. Additionally, I work with early-stage start-ups to build their first MVP as a software engineer consultant
+	`,
 
 	resumeDownload: 'https://drive.google.com/file/d/1eGa0uwQPLDoFnN8eIfgkmmpXEdJfM5RS/view?usp=sharing',
 	tech: [
@@ -43,6 +45,7 @@ export default {
 		{ imageSrc: mysql },
 		{ imageSrc: graphql },
 		{ imageSrc: docker },
+		{ imageSrc: elastic },
 		{ imageSrc: dynamo },
 		{ imageSrc: nginx },
 		{ imageSrc: aws },
@@ -50,6 +53,15 @@ export default {
 	],
 
 	experience: [
+		{
+			id: 0,
+			title: 'Consultant Software Engineer ',
+			company: 'Self Employed',
+			from: 'Aug 2021',
+			to: 'present',
+			description: '',
+			status: 'Part-time',
+		},
 		{
 			id: 1,
 			title: 'Senior Engineer - Developer Supportability',
@@ -163,6 +175,26 @@ export default {
 			github: 'https://github.com/akash-dutta-au7/TheGlobileStore',
 		},
 	],
+
+	blogs: [
+		{
+			id: 0,
+			title: 'Tried to clone the react-credit-cards npm package',
+			read: '5 minutes',
+			datePosted: 'Sep 16, 2020',
+			body: 'I was working on this small but fun project in React, using hooks. Tried to replicate the react-credit-cards npm...',
+			link: 'https://dev.to/akashduttaau7/tried-to-clone-the-react-credit-cards-npm-package-29e5',
+		},
+		{
+			id: 1,
+			title: 'Tried to clone the react-credit-cards npm package',
+			read: '5 minutes',
+			datePosted: 'Sep 16, 2020',
+			body: 'I was working on this small but fun project in React, using hooks. Tried to replicate the react-credit-cards npm...',
+			link: 'https://dev.to/akashduttaau7/tried-to-clone-the-react-credit-cards-npm-package-29e5',
+		},
+	],
+
 	social: [
 		{ name: 'Github', url: 'https://github.com/chetanverma16' },
 		{

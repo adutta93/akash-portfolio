@@ -1,16 +1,24 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
+import data from '../yourdata';
+import BlogCard from './blogCard';
+
 class Blog extends Component {
 	state = {};
 	render() {
 		return (
-			<Fade bottom>
-				<div className='experience'>
-					{/* <img src={this.props.imageSrc} alt={this.props.title}></img> */}
+			<div className='blog'>
+				<Fade bottom cascade>
+					<h1>Blog.</h1>
+				</Fade>
 
-					<h1>{this.props.title}</h1>
+				<div className='blog-content' target='blank' rel='noopener noreferrer'>
+					{' '}
+					{data.blogs.map((blog) => (
+						<BlogCard blog={blog} key={blog.id} />
+					))}
 				</div>
-			</Fade>
+			</div>
 		);
 	}
 }

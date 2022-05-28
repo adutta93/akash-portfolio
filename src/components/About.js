@@ -15,7 +15,8 @@ class About extends Component {
 					</h1>
 
 					<Fade bottom>
-						<p className='about-details'>{data.abouttext}</p>
+						<p className='about-details'>{data.abouttext1}</p>
+						<p className='about-details'>{data.abouttext2}</p>
 					</Fade>
 				</div>
 			</div>
